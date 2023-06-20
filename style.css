@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+section {
+    
+    
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    
+}
+
+nav,.sec,.thi{
+    display: flex;
+    align-items: center;
+   
+    padding: 30px 25px;
+    height: 90px;
+  
+
+}
+
+
+
+nav > h3{
+   margin-right: 80%;
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.navleft{
+    float: right;
+}
+
+.thi{
+    margin-top: -40px;
+}
+
+
+.thi > .ic2{
+    margin-left: 60%;
+}
+
+
+
+
+.mn,.one,.two,.three,.four,.five,.six,.seven,.eight{
+   
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}   
+
+    
+
+
+.one{
+    
+    background-color: rgb(178, 237, 237);
+}
+.two{
+    background-color: rgb(201, 201, 234);
+}
+.three{
+    background-color: rgb(223, 223, 168);
+}
+.four{
+    background-color: rgb(226, 186, 186);
+}
+.five{
+    background-color: rgb(237, 167, 220);
+    
+}
+.six{
+    background-color: rgb(214, 186, 239);
+    
+}
+.seven{
+    background-color: rgb(242, 215, 166);
+
+}
+.eight{
+    background-color: rgb(173, 209, 173);
+    
+}
+
+
+.con{
+    background-color: white;
+    width: 95%;
+    border-radius: 15px;
+}
+
+
+
+.prg{
+    background-color: blue;
+    color: blue;
+    padding:1px;
+    text-align: right;
+    font-size: 7px;
+    border-radius: 15px;
+
+}
+
+.prg{
+    width:80%;
+}
